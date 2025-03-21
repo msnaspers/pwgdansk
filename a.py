@@ -1,3 +1,9 @@
-a=input("dawac liczbe")
+lis=list(input(""))
+print(type(lis))
+a=lis
+#a = lis.split(',')
 
-print(f"Licba to {a**2}")
+print(f"Wynik: {int(a[1])-int(a[0])}")
+
+
+(a, b)=5,8
