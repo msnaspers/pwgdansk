@@ -86,4 +86,7 @@ lis=['marcin', 'magda']
 a=[len(e)**2 for e in lis]
 print(a)
 
-print(help(a))
+#print(help(a))
+a.insert(10,'')
+
+a.remove(**['lista','list'])
