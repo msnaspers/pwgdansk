@@ -70,5 +70,5 @@ for e in set(a):
 
 lis= [34.6, -34.7, -10.4, 23, 90.8, -11.3, 32.5]
 new = [e if e>0 and e%1==0 else 'ff' for e in lis]
-
 print(new)
+aa=[]
