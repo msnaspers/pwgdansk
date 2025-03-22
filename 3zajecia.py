@@ -67,8 +67,23 @@ e=(',').join(a).split(',')
 for e in set(a):
     print(e+str(a.count(e)))
 
-
+'''
 lis= [34.6, -34.7, -10.4, 23, 90.8, -11.3, 32.5]
 new = [e if e>0 and e%1==0 else 'ff' for e in lis]
-print(new)
-aa=[]
+
+a = input("podaj imiona")
+lis=a.split(',')
+cnt=0
+l = [len(e) for e in a.split(',')]
+
+ee = zip(lis,l)
+
+print(sorted(ee, key=lambda e:e[1])[-1])
+'''
+
+lis=['marcin', 'magda']
+
+a=[len(e)**2 for e in lis]
+print(a)
+
+print(help(a))
