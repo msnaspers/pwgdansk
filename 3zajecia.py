@@ -28,4 +28,30 @@ def main():
 #main()
 
 
+def liczba(a: int) -> int:
+    str_a=str(a)
+    return str_a[len(str_a)-1:]
+
+print(liczba(123577575478484))
+
+
+'''a = reversed('123455666')
+print(next(a))
+
+
+
+for e in a:
+    print(e)
+    break'''
+
+#indexy wsteczne -1,-2 znaki od konca
+
+
+napis='kajak'
+
+i=0
+
+while i<=len(napis):
+    i+=1
+    print(napis[-i])
 
