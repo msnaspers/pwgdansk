@@ -10,4 +10,8 @@ warzywa = ('pomidor', 'ogor', 'kapucha')
 
 print(zolty)
 
-(a,b)=1,4
+krotka1=(1,23)
+krotka2=(2,230)
+(krotka1, krotka2)=krotka2, krotka1
+
+print(krotka1,krotka2)
