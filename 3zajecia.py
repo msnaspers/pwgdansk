@@ -47,11 +47,28 @@ for e in a:
 #indexy wsteczne -1,-2 znaki od konca
 
 
-napis='kajak'
+'''napis='kajak'
 
 i=0
 
 while i<=len(napis):
     i+=1
-    print(napis[-i])
+    print(napis[-i])'''
 
+a = range(1,10)
+print(a[0])
+
+print("--------------")
+a='rabarbar'
+
+e=(',').join(a).split(',')
+#e.unique()
+## set unikalna list elementow
+for e in set(a):
+    print(e+str(a.count(e)))
+
+
+lis= [34.6, -34.7, -10.4, 23, 90.8, -11.3, 32.5]
+new = [e if e>0 and e%1==0 else 'ff' for e in lis]
+
+print(new)
